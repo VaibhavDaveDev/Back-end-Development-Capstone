@@ -1,3 +1,23 @@
+## Project Overview
+
+This repository contains the complete code for the final capstone project of the IBM Back-End Development course on Coursera. The project involves building a fully functional website for a popular music band. The site allows fans and users to:
+
+- View pictures from past events
+- Explore popular song lyrics
+- Check upcoming events
+- Create accounts
+- Register for events
+- View past registrations
+
+- **Microservices in Flask**: Two microservices were developed to handle pictures and song lyrics. These microservices include CRUD operations and health checks, and are deployed on IBM Code Engine and Red Hat OpenShift, respectively.
+  
+- **Main Application in Django**: The main application manages concerts, user authentication, and integrates the Flask microservices. It includes models for concerts and uses the Django user model. This application is deployed on IBM Kubernetes Service.
+
+### Project Structure
+![Back-end-Development_structure](https://github.com/user-attachments/assets/9440a8b1-a7f2-4d38-b37e-ee4556a647aa)
+
+The project also includes detailed setup and deployment instructions for each component, along with steps to run and test the entire application.
+
 # Lab
 
 1.  Clone git repo: `git clone https://github.com/ibm-developer-skills-network/sfvih-Back-end-Development-Capstone.git`
